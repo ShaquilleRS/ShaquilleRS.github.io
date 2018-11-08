@@ -1,0 +1,234 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+}
+
+.fullpage {
+    height: 100vh;
+    border-top: 2px solid white;
+}
+
+/*menu*/
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.9);
+    overflow-x: hidden;
+    z-index: 5;
+    transition: all 2s;
+}
+
+.overlay_content {
+    position: relative;
+    top: 25%;
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.overlay a {
+    padding: 10px;
+    color: #fff;
+    font-size: 35px;
+    text-decoration: none;
+    display: block;
+}
+
+.overlay a:hover {
+    color: #ccc;
+    text-decoration: none;
+}
+
+.overlay .closeBtn {
+    position: absolute;
+    top: 20px;
+    right: 50px;
+    font-size: 45px;
+    text-decoration: none;
+}
+
+/*einde menu*/
+
+.homepage-picture {
+    background: url("river.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+
+}
+
+.openBtn {
+    color: #fff;
+    text-decoration: none;
+    font-size: 255%;
+    position: fixed;
+    margin-left: 0.5%;
+}
+
+.openBtn:hover {
+    color: #ccc;
+    text-decoration: none;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+    font-size: 600%;
+    margin-top: 19%;
+}
+
+h2 {
+    color: white;
+    text-align: center;
+    font-size: 250%;
+    margin-top: -5%;
+}
+
+h3 {
+    color: white;
+    text-align: center;
+    font-size: 400%;
+}
+
+.tekst1 {
+    color: white;
+    text-align: center;
+    font-size: 150%;
+    margin-top: 13%;
+    margin-bottom: 9.5%;
+}
+
+.tekst2 {
+    color: white;
+    text-align: center;
+    font-size: 150%;
+    margin-top: 12%;
+}
+
+.tekst3 {
+    color: white;
+    text-align: center;
+    font-size: 150%;
+    margin-top: 10%;
+    margin-bottom: 8%;
+}
+
+table {
+    color: white;
+    margin: 0 auto;
+    width: 560px;
+}
+
+tbody {
+    color: white;
+}
+
+tr {
+    color: white;
+}
+
+td {
+    color: white;
+}
+
+td, th {
+    border: 1px solid white;
+}
+
+form {
+    margin: 0 auto;
+    width: 400px;
+    height: 250px;
+    color: white;
+    margin-top: 10%;
+}
+
+fieldset {
+    width: 100%;
+    height: 120%;
+}
+
+form legend {
+    color: white;
+}
+
+label {
+    color: white;
+}
+
+legend {
+    font-size: 160%;
+}
+
+input {
+    float: right;
+}
+
+textarea {
+    width: 99%;
+    height: 18%;
+}
+
+.cv-download a {
+    color: white;
+    margin-left: 47%;
+    font-size: 150%;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #ccc;
+    text-decoration: underline;
+}
+
+img {
+    height: 400px;
+    width: 275px;
+}
+
+.foto-gallerij {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    margin-top: 7%;
+    width: 97vw;
+}
+
+.mezelf {
+    background-color: black;
+    background-size: cover;
+
+}
+
+.opleiding {
+    background-color: black;
+    background-size: cover;
+}
+
+.periode {
+    background-color: black;
+    background-size: cover;
+}
+
+.contact {
+    background-color: black;
+    background-size: cover;
+}
+
+.gallerij {
+    background-color: black;
+    background-size: cover;
+}
+
+
+
+
+
+
+
