@@ -15,4 +15,9 @@ var naam = prompt("Wat is je naam?");
 document.getElementById("welkom").innerHTML =
     "Welkom " + naam + "";
 
+while (!naam) {
+    var naam = prompt("Wat is je naam?");
 
+    document.getElementById("welkom").innerHTML =
+        "Welkom " + naam + "";
+}
