@@ -10,4 +10,9 @@ function sendForm() {
     alert("Je bericht is verzonden, bedankt!")
 }
 
+var naam = prompt("Wat is je naam?");
+
+document.getElementById("welkom").innerHTML =
+    "Welkom " + naam + "";
+
 
