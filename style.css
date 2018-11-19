@@ -80,12 +80,21 @@ body {
     text-decoration: none;
 }
 
-h1 {
+.welkom-tekst  {
+    color: white;
+    text-align: center;
+    font-size: 120%;
+    margin: 5%; /* 10% */
+    text-decoration: underline;
+}
+
+ h1 {
     color: white;
     text-align: center;
     font-size: 600%;
-    margin-top: 19%;
+     margin-top: 12.6%; /* -2.4% */
 }
+
 
 h2 {
     color: white;
