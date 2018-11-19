@@ -6,3 +6,8 @@ function closeNav(){
     document.getElementById('overlay', 'mezelf', 'periode', 'gallerij', 'contact', 'opleiding').style.width = "0%";
 }
 
+function sendForm() {
+    alert("Je bericht is verzonden, bedankt!")
+}
+
+
