@@ -183,9 +183,32 @@ input {
     float: right;
 }
 
+button {
+    float: right;
+    cursor: pointer;
+    background-color: transparent;
+    color: white;
+    padding: 1.5%;
+    border: solid 1px white;
+    border-radius: 4px;
+}
+
+button:hover {
+    background-color: white;
+    color: black;
+    cursor: pointer;
+    transition: all 0.35s;
+}
+
 textarea {
     width: 99%;
     height: 18%;
+}
+
+footer {
+    color: white;
+    text-align: center;
+    margin-top: 12%;
 }
 
 .cv-download a {
