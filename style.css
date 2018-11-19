@@ -24,7 +24,7 @@ body {
     background: rgba(0, 0, 0, 0.9);
     overflow-x: hidden;
     z-index: 5;
-    transition: all 1.5s;
+    transition: all 1s;
 }
 
 .overlay_content {
