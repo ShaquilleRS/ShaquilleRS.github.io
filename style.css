@@ -109,6 +109,10 @@ h3 {
     font-size: 400%;
 }
 
+marquee {
+    color: white;
+    margin-top: 14%;
+}
 
 .tekst1 {
     color: white;
