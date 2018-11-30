@@ -233,12 +233,12 @@ img {
     width: 275px;
 }
 
-.foto-gallerij img:hover{
+picture img:hover{
     transform: scale(1.1);
     cursor: pointer;
 }
 
-.foto-gallerij {
+picture {
     display: flex;
     flex-wrap: nowrap;
     justify-content: space-around;
