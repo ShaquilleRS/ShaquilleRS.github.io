@@ -88,6 +88,14 @@ body {
     text-decoration: underline;
 }
 
+.klok {
+    color: white;
+    font-size: 255%;
+    margin-top: 0.5%;
+    float: right;
+    margin-right: 1%;
+}
+
  h1 {
     color: white;
     text-align: center;
