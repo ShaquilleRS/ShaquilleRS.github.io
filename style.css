@@ -9,6 +9,11 @@ body {
     width: 100%;
 }
 
+marquee {
+    color: white;
+    margin-top: 14%;
+}
+
 .fullpage {
     height: 100vh;
     border-top: 2px solid white;
@@ -88,21 +93,12 @@ body {
     text-decoration: underline;
 }
 
-.klok {
-    color: white;
-    font-size: 255%;
-    margin-top: 0.5%;
-    float: right;
-    margin-right: 1%;
-}
-
  h1 {
     color: white;
     text-align: center;
     font-size: 600%;
      margin-top: 12.6%; /* -2.4% */
 }
-
 
 h2 {
     color: white;
@@ -117,9 +113,9 @@ h3 {
     font-size: 400%;
 }
 
-marquee {
+h4 {
     color: white;
-    margin-top: 14%;
+    text-align: center;
 }
 
 .tekst1 {
@@ -189,7 +185,7 @@ label {
 }
 
 legend {
-    font-size: 160%;
+    font-size: 130%;
 }
 
 input {
@@ -241,23 +237,21 @@ img {
     width: 275px;
 }
 
-picture img:hover{
-    transform: scale(1.1);
-    cursor: pointer;
-}
-
 picture {
     display: flex;
-    flex-wrap: nowrap;
     justify-content: space-around;
     margin-top: 7%;
     width: 100vw;
 }
 
+picture img:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
 .mezelf {
     background-color: black;
     background-size: cover;
-
 }
 
 .opleiding {
@@ -279,10 +273,3 @@ picture {
     background-color: black;
     background-size: cover;
 }
-
-
-
-
-
-
-
